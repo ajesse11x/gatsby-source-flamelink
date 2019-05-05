@@ -24,7 +24,9 @@
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
     "dev": "babel -w src --out-dir . --ignore **/__tests__",
-    "lint": "eslint ./src --cache"
+    "lint": "eslint ./src --cache",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
@@ -35,7 +37,8 @@
     "lodash.get": "^4.4.2",
     "lodash.isplainobject": "^4.0.6",
     "lodash.result": "^4.5.2",
-    "pascalcase": "^0.1.1"
+    "pascalcase": "^0.1.1",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -51,5 +54,6 @@
   },
   "peerDependencies": {
     "gatsby": "^2.0.3"
-  }
+  },
+  "snyk": true
 }
