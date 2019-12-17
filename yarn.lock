@@ -1911,9 +1911,10 @@ firebase@^4.12.1:
     dom-storage "2.1.0"
     xmlhttprequest "1.8.0"
 
-flamelink@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/flamelink/-/flamelink-0.19.1.tgz#99957416548f4ecd4a6c3dcf3d131cc437e7d11b"
+flamelink@^0.19.14:
+  version "0.19.14"
+  resolved "https://registry.yarnpkg.com/flamelink/-/flamelink-0.19.14.tgz#3fb7266abf0184c073867db3476676abadb7f139"
+  integrity sha512-Knu+Qey5TKCFoAlTqTIrc07HZtZ9XCBAdjNwl5oMdzR0Ag5QzV5qwKCcCwd0jOUUgAgZ/mTUBu+ues2iriUIqw==
   dependencies:
     browser-image-resizer "^1.1.4"
     compose-then "^1.0.1"

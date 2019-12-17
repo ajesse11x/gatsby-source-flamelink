@@ -30,7 +30,7 @@
     "@babel/runtime": "^7.0.0",
     "compose-then": "^1.0.1",
     "firebase-admin": "^6.0.0",
-    "flamelink": "^0.19.1",
+    "flamelink": "^0.19.14",
     "lodash.curry": "^4.1.1",
     "lodash.get": "^4.4.2",
     "lodash.isplainobject": "^4.0.6",
