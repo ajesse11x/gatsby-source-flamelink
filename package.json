@@ -29,7 +29,7 @@
   "dependencies": {
     "@babel/runtime": "^7.0.0",
     "compose-then": "^1.0.1",
-    "firebase-admin": "^6.0.0",
+    "firebase-admin": "^9.2.0",
     "flamelink": "^0.19.1",
     "lodash.curry": "^4.1.1",
     "lodash.get": "^4.4.2",
