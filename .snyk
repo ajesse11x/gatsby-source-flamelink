@@ -1,0 +1,83 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > axios:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > axios
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gcp-metadata > axios:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gcp-metadata > axios
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gtoken > axios:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gtoken > axios
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > axios:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > google-auth-library > axios
+  'npm:extend:20180424':
+    - firebase-admin > @google-cloud/storage > extend:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: 'npm:extend:20180424'
+        path: firebase-admin > @google-cloud/storage > extend
+    - firebase-admin > @google-cloud/firestore > google-gax > extend:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: 'npm:extend:20180424'
+        path: firebase-admin > @google-cloud/firestore > google-gax > extend
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > extend:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: 'npm:extend:20180424'
+        path: firebase-admin > @google-cloud/storage > @google-cloud/common > extend
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gcp-metadata > extend:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gcp-metadata > extend
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > extend:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > request > extend
+  SNYK-JS-LODASH-567746:
+    - firebase-admin > @google-cloud/firestore > google-gax > @grpc/proto-loader > lodash:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          @grpc/proto-loader > lodash
+    - firebase-admin > @google-cloud/firestore > google-gax > grpc > lodash:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-admin > @google-cloud/firestore > google-gax > grpc > lodash
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > async > lodash
+    - firebase-admin > @google-cloud/firestore > google-gax > lodash:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-admin > @google-cloud/firestore > google-gax > lodash
+  'npm:stringstream:20180511':
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > stringstream:
+        patched: '2023-08-31T21:33:16.666Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > request > stringstream
